@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.filmxshow{
+    height: 100%;
+    width: 100%;
+    background-color: var(--bs-dark);
+    color: white;
+    
+}
+.title{
+    font-size: 13px;
+    padding: 10px;
+    font-family: 'Shantell Sans', cursive;
+    color: white;
+    text-decoration: underline;
+
+}
+.server{
+    height: max-content;
+    position: relative;
+    z-index: 0;
+}
+span{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.plot{
+    width: 50%;
+}
+.bgimg{
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ z-index: -1;
+filter: blur(1px);
+}
+.img{
+    height: inherit;
+    width: inherit;
+   filter:grayscale(0.3)
+
+}
+iframe{
+    padding: 10px;
+    position: relative;
+    top: 0;
+    height: 620px;
+    width: 90%;
+    left:5%;
+    
+}
+.details{
+    display: flex;
+    margin-top: 3%;
+    gap: 50px;
+    justify-content: center;
+
+    
+    
+}
+
+@media screen and (max-width: 600px) {
+  .details{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+  }
+  .imgposter{
+    width: 100%;
+   
+  }
+}
+
+.poster{
+    width: fit-content;
+    align-self:flex-start;
+    justify-self: center;
+    margin-left: 10%;
+}
+.imgposter{
+    height: 500px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.det1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin-bottom: 1%;
+}
+.rg{
+    display: flex;
+    font-size: larger;
+   
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.score{
+    margin-left: 5px
+}
+.date{
+    
+    font-family: 'Pacifico', cursive;
+}
+.tit{
+    font-family: 'Zeyada', cursive;
+    font-size: 75px;
+    
+}
+.btn{
+    margin: 2px;
+}
+.epssec{
+    display: grid;
+    margin: 1%;
+    grid-template-columns: repeat(10,1fr);
+    
+}

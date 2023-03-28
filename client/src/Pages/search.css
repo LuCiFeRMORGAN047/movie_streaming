@@ -1,0 +1,13 @@
+.searchh{
+    color: white;
+    height: 100vh;
+}
+.searchtit{
+    padding: 3%;
+    font-size: 30px;
+}
+.listse{
+    padding: 3%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
